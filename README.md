@@ -46,15 +46,16 @@ consumer_key、consumer_ecret填写到脚本相应位置。
 	For more informations, please visit  http://wangheng.org.
 
 
-其中[XXX]内的为必填参数，<XXX>内的为可选参数
+`其中[XXX]内的为必填参数，<XXX>内的为可选参数`
 
-比如执行 ./kuaipan_uploader.sh upload a.txt
+比如执行 `./kuaipan_uploader.sh upload a.txt`
 
-后面的<remote file> 可以不填，不填写的话，默认上传到网盘根目录或者应用程序根目录(跟你创建应用的时候选择的选项有关)的同名文件。
+后面的`<remote file>`可以不填，不填写的话，默认上传到网盘根目录或者应用程序根目录的同名文件。
+(跟你创建应用的时候选择的选项有关)
 
-其他下载和删除类似...
+其他，下载和删除都是类似如上...
 
-注意：如果上传到远程某个目录内的话，请务必保证此目录已存在！
+*注意：如果上传到远程某个目录内的话，请务必保证此目录已存在！*
 
 执行 `./kuaipan_uploader.sh info` 可以查看网盘的用户名，总容量和可用容量。
 
@@ -64,8 +65,11 @@ consumer_key、consumer_ecret填写到脚本相应位置。
 
 
 **5、安装卸载**
+
 此工具为绿色软件，使用时候复制到执行目录并赋予执行权限即可。
-如果想卸载删除此工具，请连带删除 CONFIG_FILE 变量后面的配置文件，默认为 `~/.kuaipan_upload.conf`
+
+如果想卸载删除此工具，请连带删除 `CONFIG_FILE` 变量后面的配置文件，默认为 `~/.kuaipan_upload.conf`
+
 
 **6.关于**
 
