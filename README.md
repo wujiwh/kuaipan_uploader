@@ -17,7 +17,7 @@ PS：其实我的本意是基于百度云盘写一个上传下载的脚本，但
 **2.配置**
 
 首先注册一个金山快盘账号，然后到这里[地址](http://www.kuaipan.cn/developers)创建一个你自己的应用并把得到的
-consumer_key、consumer_ecret填写到脚本相应位置。
+consumer_key、consumer_secret填写到脚本相应位置。
 
 
 **3.赋予脚本执行权限并执行**
