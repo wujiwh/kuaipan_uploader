@@ -87,7 +87,7 @@ consumer_key、consumer_secret填写到脚本相应位置。
 
 ##赞助
 
-如果您想支持此项目，您可以考虑下赞助：
+如果您想支持此项目，您可以考虑以下方式赞助：
 
 - Paypal：wujiwh@gmail.com
 - 支付宝：wujiwh@qq.com
