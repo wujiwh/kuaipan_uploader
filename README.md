@@ -84,3 +84,13 @@ consumer_key、consumer_secret填写到脚本相应位置。
 - **TODO**
 
 1、list可以区分目录和文件，并显示目录结构。
+
+
+===================
+
+**赞助**
+
+如果您想支持此项目，您可以考虑下赞助：
+
+- 支付宝：wujiwh@qq.com
+- 支付宝扫码支付 [image](http://wangheng.org/images/alipay2me.png)
