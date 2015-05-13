@@ -92,5 +92,8 @@ consumer_key、consumer_secret填写到脚本相应位置。
 
 如果您想支持此项目，您可以考虑下赞助：
 
+- Paypal：wujiwh@gmail.com
 - 支付宝：wujiwh@qq.com
-- 支付宝扫码支付 ![image](http://wangheng.org/images/alipay2me.png "alipay")
+- 支付宝扫码支付
+
+![image](http://wangheng.org/images/alipay2me.png "alipay")
