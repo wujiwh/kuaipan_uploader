@@ -39,6 +39,7 @@ CONFIG_FILE=~/.kuaipan_upload.conf
 RESPONSE_FILE="/tmp/resp_kuaipan"
 COOKIE_FILE="/tmp/kuaipan.cookie"
 
+Version="1.0.1"
 
 #使用整个快盘此处填"kuaipan"，使用应用目录填"app_folder"
 ROOT_DIR="app_folder"
@@ -312,7 +313,7 @@ function show_list
 #=====================================
 
 function usage() {
-    echo -e "KuaiPan Uploader v1.0"
+    echo -e "KuaiPan Uploader v$Version"
     echo -e "wangheng - wujiwh@gmail.com\n"
     echo -e "Usage: $0 COMMAND [PARAMETERS]..."
     echo -e "\nCommands:"
