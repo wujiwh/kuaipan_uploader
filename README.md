@@ -97,3 +97,9 @@ consumer_key、consumer_secret填写到脚本相应位置。
 - 支付宝扫码支付
 
 ![image](http://wangheng.org/images/alipay2me.png "alipay")
+
+====================
+
+ **许可证**
+
+Kuaipan Uploader 基于GPL第二版或以后版本发布。详见LICENSE.txt
