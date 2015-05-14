@@ -28,8 +28,8 @@
 #       Author: wangheng
 #        Email: wujiwh@gmail.com
 #     HomePage: http://wangheng.org
-#      Version: 1.0.1
-#   LastChange: 2015-05-09 09:34:59
+#      Version: 1.1.0
+#   LastChange: 2015-05-14
 #      History:
 #===========================================================================
 
@@ -39,7 +39,7 @@ CONFIG_FILE=~/.kuaipan_upload.conf
 RESPONSE_FILE="/tmp/resp_kuaipan"
 COOKIE_FILE="/tmp/kuaipan.cookie"
 
-Version="1.0.1"
+Version="1.1.0"
 
 #使用整个快盘此处填"kuaipan"，使用应用目录填"app_folder"
 ROOT_DIR="app_folder"
@@ -283,7 +283,7 @@ function file_delete
 {
 	local file_Remote=$1
 
-	OAUTH_DATA=$(get_common_oauthdata)"&path=$file_Remote&root=$ROOT_DIR"
+	OAUTH_DATA=$(get_common_oauthdata)"&path=$(url_encode $file_Remote)&root=$ROOT_DIR"
 	signature=$(get_signature 'GET' $API_DELETE_FILE_URL "$OAUTH_DATA" $OAUTH_TOKEN_SECRET)
 	$CURL -k -s -S -i -S -L -G -d "$OAUTH_DATA&oauth_signature=$signature" "$API_DELETE_FILE_URL" -o "$RESPONSE_FILE"
 	
