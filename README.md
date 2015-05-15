@@ -32,6 +32,8 @@ consumer_key、consumer_secret填写到脚本相应位置。
 
 **4.使用说明**
 
+下载：
+ `git clone https://github.com/wujiwh/kuaipan_uploader.git`
 
 	Usage: ./kuaipan_uploader.sh COMMAND [PARAMETERS]...
 
