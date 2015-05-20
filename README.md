@@ -103,7 +103,7 @@ consumer_key、consumer_secret填写到脚本相应位置。
 - 支付宝：wujiwh@qq.com
 - 支付宝扫码支付
 
-![image](http://wangheng.org/images/alipay2me.png "alipay")
+![image](http://wangheng.org/images/alipay.png "")
 
 
 ##许可证
