@@ -307,7 +307,7 @@ function show_list
 	signature=$(get_signature 'GET' $metaUrl "$OAUTH_DATA" $OAUTH_TOKEN_SECRET)
     $CURL -k -s -S -G -L -d "$OAUTH_DATA&oauth_signature=$signature" "$metaUrl" -o "$RESPONSE_FILE"
 
-    sed 's/,/\n/g' $RESPONSE_FILE|grep name|awk -F ':' '{print $2}'|tr -d '"'|tr "\n" "\t"|sed 's/$/\n/'
+    sed 's/,/\n/g' $RESPONSE_FILE|grep name|awk -F ':' '{print $2}'|tr -d '"'|sed '$d'
 }
 
 #=====================================
