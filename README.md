@@ -95,14 +95,6 @@ consumer_key、consumer_secret填写到脚本相应位置。
 1、list可以区分目录和文件，并显示目录结构。
 
 
-##赞助
-
-如果您想支持此项目，您可以考虑以下方式赞助：
-
-- 支付宝扫码支付
-
-![image](http://wangheng.org/images/alipay.png "")
-
 ##许可证
 
 Kuaipan Uploader 基于GPL第二版或以后版本发布。详见LICENSE文件
